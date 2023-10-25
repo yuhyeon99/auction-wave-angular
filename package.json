@@ -1,29 +1,23 @@
 {
   "name": "auction-wave-angular",
-  "version": "1.0.0",
   "description": "An initial yarn-managed project for Chapter 2",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "start": "live-server"
   },
   "dependencies": {
-    "@angular/common": "16.2.9",
-    "@angular/compiler": "16.2.9",
-    "@angular/core": "16.2.9",
-    "@angular/forms": "16.2.9",
-    "@angular/http": "16.2.9",
-    "@angular/platform-browser": "16.2.9",
-    "@angular/platform-browser-dynamic": "16.2.9",
-    "@angular/router": "4.1.0",
-    "core-js": "2.4.1",
+    "@angular/common": "^4.1.0",
+    "@angular/compiler": "^4.1.0",
+    "@angular/core": "^4.1.0",
+    "@angular/platform-browser": "^4.1.0",
+    "@angular/platform-browser-dynamic": "^4.1.0",
+    "core-js": "^2.4.1",
     "rxjs": "5.3.0",
     "systemjs": "0.19.47",
-    "zone.js": "0.8.5"
+    "zone.js": "^0.8.5"
   },
   "devDependencies": {
-    "live-server": "1.2.2",
-    "typescript": "^2.3.3"
-  },
-  "private": true,
-  "license": "MIT"
+    "live-server": "1.2.0",
+    "typescript": "5.2.2"
+  }
 }

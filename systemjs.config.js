@@ -6,10 +6,12 @@ System.config({
     target: "ES5",
     module: "commonjs",
   },
+
   map: {
-    "@angular": "node_module/@angular",
+    "@angular": "node_modules/@angular",
     rxjs: "node_modules/rxjs",
   },
+
   packages: {
     rxjs: { main: "Rx" },
     "@angular/core": { main: "bundles/core.umd.min.js" },
@@ -21,6 +23,7 @@ System.config({
     "@angular/platform-browser-dynamic": {
       main: "bundles/platform-browser-dynamic.umd.min.js",
     },
+
     app: { main: "main", defaultExtension: "ts" },
   },
 });
