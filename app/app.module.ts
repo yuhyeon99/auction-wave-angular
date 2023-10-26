@@ -20,7 +20,7 @@ import { ProductService } from "./services/product.service";
     SearchComponent,
     StarsComponent,
   ],
-  providers:[ProductService]
+  providers: [ProductService],
   bootstrap: [ApplicationComponent],
 })
 export class AppModule {}
